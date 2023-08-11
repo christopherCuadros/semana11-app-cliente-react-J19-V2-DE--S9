@@ -1,8 +1,8 @@
-@server = https://texai-glowing-couscous-pgprxq9gwh76xw-8080.preview.app.github.dev
+@server = http://localhost:8080
 ###
-GET {{server}}/api/employees 
+GET {{server}}/api/instrumento
 ###
-POST {{server}}/api/employees
+POST {{server}}/api/instrumento
 Content-Type: application/json
 
 {"firstName": "Mi", "lastName": "Aplicación", "description": "React"}
